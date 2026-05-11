@@ -8,8 +8,8 @@
   <meta name="apple-mobile-web-app-title" content="My Wallet">
   <meta name="theme-color" content="#0a0a0a">
   <title>My Wallet</title>
-  <link rel="manifest" href="manifest.json">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="manifest" href="https://raphaaaontop.github.io/flous/manifest.json">
+  <link rel="apple-touch-icon" href="https://raphaaaontop.github.io/flous/icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
@@ -454,7 +454,7 @@
 </div>
 
 <script>
-  if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
+  if ('serviceWorker' in navigator) navigator.serviceWorker.register('/flous/sw.js');
 
   let txs = JSON.parse(localStorage.getItem('wallet_tx') || '[]');
   let goals = JSON.parse(localStorage.getItem('wallet_goals') || '[]');
