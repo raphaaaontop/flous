@@ -2,7 +2,7 @@
   "name": "My Wallet",
   "short_name": "Wallet",
   "description": "Personal finance tracker",
-  "start_url": "/",
+  "start_url": "/flous/index.html",
   "display": "standalone",
   "background_color": "#0a0a0a",
   "theme_color": "#0a0a0a",
